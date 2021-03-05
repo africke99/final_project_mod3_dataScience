@@ -56,4 +56,4 @@ bird_migration %>%
 
 1. Color by altitude ()
 2. Comparison of 
-3. 
+3. Sanne
