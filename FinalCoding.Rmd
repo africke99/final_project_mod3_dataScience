@@ -47,10 +47,13 @@ temperature_change %>%
 
 ```{r}
 bird_migration %>% 
-  select(-altitude, -device_info_serial) %>% 
+  select(-device_info_serial) %>% 
   separate(date_time, c("date", "time"), sep = " ") %>% 
   mutate(date_tag = date) %>% 
   separate(date_tag,
            c("Year", "Month", "Day"))
 ```
 
+1. Color by altitude ()
+2. Comparison of 
+3. 
